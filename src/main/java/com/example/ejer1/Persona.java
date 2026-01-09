@@ -1,8 +1,9 @@
-package com.example;
+package com.example.ejer1;
 
 import java.time.LocalDate;
 
 import java.time.Period;
+import java.util.ArrayList;
 
 public class Persona {
   private String nombre;
@@ -37,4 +38,5 @@ public class Persona {
 
     return edad;
   }
+
 }

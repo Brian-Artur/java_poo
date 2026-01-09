@@ -1,7 +1,7 @@
-package com.example;
+package com.example.ejer1;
 
-import com.example.Persona;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
   public static void main(String[] args) {
@@ -16,18 +16,18 @@ public class Main {
     Persona pers6 = new Persona("Patricia", "Seoane Álvarez", 62);
 
     pers6.obtenerEdad();
+
+    List<Persona> personas = new ArrayList<Persona>();
+
+    personas.add(pers1);
+    personas.add(pers2);
+    personas.add(pers3);
+    personas.add(pers4);
+
+    PersonaService service = new PersonaService();
+    Persona mayor = service.mayorEdad(personas);
+
+    mayor.mostrarDatos();
   }
 
-  public Persona mayorEdad(ArrayList<Persona> personas) {
-    Persona mayor = personas.get(0);
-    for (int i = 0; i < personas.size(); i++) {
-      Persona persActual = personas.get(i);
-
-      if (persActual.obtenerEdad() > mayor.obtenerEdad()) {
-        mayor = persActual;
-      }
-    }
-
-    return mayor;
-  }
 }
