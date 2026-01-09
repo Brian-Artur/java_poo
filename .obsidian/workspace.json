@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "4da8b5b83d0151f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "263f5678442fb03b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1536dec0ebd2923e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Constructor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Constructor"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb4bee7e74792a2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "60abf69c5cbaae80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b7f378fda18ad9f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "72942028efc905f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#excalidraw  ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "4835b396be04ae0b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 291.5
+  },
+  "right": {
+    "id": "8ea6afd8fbfe8ef3",
+    "type": "split",
+    "children": [
+      {
+        "id": "1be9f61d29fe9075",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c3c3c431b38c2b1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "70_sistemas_iformaticos/72/25-12-09.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 25-12-09"
+            }
+          },
+          {
+            "id": "b77f86b0ab848fd9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 417.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "1536dec0ebd2923e",
+  "lastOpenFiles": [
+    "docs/Operar.md",
+    "docs/Constructor.md",
+    "README.md",
+    "30_ingles/25-12-02.md",
+    "30_ingles/25-12-09.md",
+    "70_sistemas_iformaticos/Repaso_Examen_eva1.md",
+    "70_sistemas_iformaticos/Crear_archivos_brian_artur_faro.pdf",
+    "10_base_datos/UD01/01-02_bbdd_sistemas_Información.pdf",
+    "10_base_datos/UD01/01_sistemas_almacenamiento.md",
+    "10_base_datos/UD01/02_bbdd.md",
+    "10_base_datos/UD01/03_sxbd.md",
+    "10_base_datos/UD01/03_sxbd.pdf",
+    "docs/componentes/01_readline.md",
+    "src/menu/Menu.ts",
+    "src/menu/Menu",
+    "src/menu",
+    "src/utils/utilData.ts",
+    "src/utils",
+    "docs/03_estructura.md",
+    "docs/06_transpilar.md",
+    "docs/ChatGPT-Plan de estudio efectivo.md",
+    "docs/componentes",
+    "docs/02_imprescindibles.md",
+    "src/numeration/changeNumeration.ts",
+    "docs/01_contexto.md",
+    "node_modules/make-error/README.md",
+    "docs/assets/transpilacion.svg",
+    "docs/assets/transpilacion.png",
+    "docs/assets/package_pom.svg",
+    "Apuntes/02_proceso.md",
+    "ChatGPT-Plan de estudio efectivo.md",
+    "Apuntes/01_equivalencias.md",
+    "50_lenguaje_marcas/25-09-15.md",
+    "10_base_datos/01_bbdd_sistemas_almacenamiento/02_bbdd.md",
+    "10_base_datos/01_bbdd_sistemas_almacenamiento/03_sxbd.md",
+    "10_base_datos/01_bbdd_sistemas_almacenamiento/01_sistemas_almacenamiento.md",
+    "70_sistemas_iformaticos/71_UD1/Drawing 2025-10-07 21.12.20.excalidraw.md",
+    "40_ipe/Drawing 2025-12-02 16.25.38.excalidraw.md",
+    "70_sistemas_iformaticos/71_UD1/Drawing 2025-10-14 20.44.27.excalidraw.md",
+    "50_lenguaje_marcas/UD1/Captura de pantalla 2025-09-15 195440.png",
+    "40_ipe/43_UD5_UD6/assets/2025-12-16_16-36-07.png",
+    "40_ipe/43_UD5_UD6/assets/2025-12-16_16-35-07.png",
+    "40_ipe/43_UD5_UD6/assets/2025-12-10_18-57-13.png",
+    "70_sistemas_iformaticos/Pasted Image 20251014221626_505.png",
+    "70_sistemas_iformaticos/assets/2025-12-09_21-34-57.png",
+    "70_sistemas_iformaticos/assets/2025-10-07_20-47-45.png"
+  ]
+}

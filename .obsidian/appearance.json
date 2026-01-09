@@ -1,0 +1,14 @@
+{
+  "cssTheme": "Minimal",
+  "accentColor": "",
+  "theme": "moonstone",
+  "nativeMenus": false,
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "monospaceFontFamily": "FiraCode Nerd Font,JetBrains Mono",
+  "enabledCssSnippets": [],
+  "showViewHeader": true,
+  "showRibbon": false,
+  "textFontFamily": "Open Sans,Segoe UI,Noto Sans",
+  "interfaceFontFamily": "Open Sans,Segoe UI,Noto Sans"
+}

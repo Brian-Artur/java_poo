@@ -1,0 +1,24 @@
+{
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 110
+  },
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": false,
+  "trashOption": "none",
+  "attachmentFolderPath": "00_assets",
+  "showIndentGuide": true,
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "newLinkFormat": "relative",
+  "strictLineBreaks": true,
+  "userIgnoreFilters": [
+    "node_modules/"
+  ]
+}
