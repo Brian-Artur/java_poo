@@ -12,7 +12,7 @@ public class Menu {
     int option = sc.nextInt();
     switch (option) {
       case '1':
-        new ModuleA().run();
+        new Triangulo(1, 1).exe();
         break;
       case '2':
         new ModuleB().run();

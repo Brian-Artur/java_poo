@@ -9,6 +9,13 @@ public class Triangulo {
     this.altura = altura;
   }
 
+  protected void exe() {
+
+    int base = Input.askNumber("Ingresa base");
+    int altura = Input.askNumber("Ingresa altura");
+    this.calcularArea(base, altura);
+  }
+
   protected double calcularArea() {
     return (this.base * this.altura) / 2;
   }
