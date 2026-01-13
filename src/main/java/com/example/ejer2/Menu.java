@@ -25,9 +25,10 @@ public class Menu {
         this.show();
     }
 
-  public static String obtenerCadena(String msg) {
-    System.out.print(msg);
-    return Menu.sc.nextLine().trim();
-  }
+    public static String obtenerCadena(String msg) {
+      System.out.print(msg);
+      return Menu.sc.nextLine().trim();
+    }
 
+  }
 }
