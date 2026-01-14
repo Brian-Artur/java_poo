@@ -2,21 +2,21 @@ package com.example.ejer2;
 
 import com.example.utils.Input;
 
-public class Triangulo {
+public class Rectangulo {
   private int base;
   private int altura;
 
-  public Triangulo() {
+  public Rectangulo() {
     this.base = Input.askNumber("Base: ");
     this.altura = Input.askNumber("Altura: ");
   }
 
   protected void run() {
-    Triangulo triangulo = new Triangulo();
-    triangulo.calcularArea(this.base, this.altura);
+    Rectangulo rectangulo = new Rectangulo();
+    rectangulo.calcularArea(this.base, this.altura);
   }
 
   public double calcularArea(int base, int altura) {
-    return (base * altura) / (double) 2;
+    return base * altura;
   }
 }

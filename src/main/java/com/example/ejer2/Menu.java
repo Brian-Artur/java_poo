@@ -1,21 +1,29 @@
 package com.example.ejer2;
 
-import java.util.Scanner;
+import com.example.utils.Input;
 
 public class Menu {
-  private static Scanner sc = new Scanner(System.in);
 
   public static int mostrarMenu() {
+    Input input = new Input();
+
     System.out.print("MENÚ PRINCIPAL\n1 - Triángulo\n2 - Cuadrado\n3 - Rectángulo \n4 - Rombo");
     System.out.println("👉 Elige una opción: ");
 
-    int option = sc.nextInt();
+    int option = input.askNumberInRange("👉 Elige una opción: ", 0, 4);
+
     switch (option) {
       case '1':
-        new Triangulo(1, 1).exe();
+        new Triangulo().run();
         break;
       case '2':
-        new ModuleB().run();
+        new Cuadrado().run();
+        break;
+      case '3':
+        new Rectangulo().run();
+        break;
+      case '4':
+        new Rombo().run();
         break;
       case '0':
         System.out.println("👋 Hasta luego!");
@@ -23,11 +31,6 @@ public class Menu {
       default:
         System.out.println("❌ Opción no válida");
         this.show();
-    }
-
-    public static String obtenerCadena(String msg) {
-      System.out.print(msg);
-      return Menu.sc.nextLine().trim();
     }
 
   }
