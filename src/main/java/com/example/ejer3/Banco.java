@@ -5,11 +5,13 @@ import java.util.List;
 
 public class Banco {
 
-  private List<CuentaCorriente> cuentas = new ArrayList<>();
+  protected List<CuentaCorriente> cuentas = new ArrayList<>();
   private CuentaCorriente cuentaActiva;
 
-  public void agregarCuenta(CuentaCorriente cuenta) {
+  public void creaCuentaCorriente(String iban, double porcComision) {
+    CuentaCorriente cuenta = new CuentaCorriente(iban, porcComision);
     cuentas.add(cuenta);
+    // return cuenta;
   }
 
   public void seleccionarCuenta(int indice) {
@@ -18,5 +20,13 @@ public class Banco {
 
   public CuentaCorriente getCuentaActiva() {
     return this.cuentaActiva;
+  }
+
+  public void listarCuentas() {
+    int i = 0;
+    for (CuentaCorriente cuenta : cuentas) {
+      System.out.printf("%d - Cuenta: %s\n", i, cuenta.getIban());
+      i++;
+    }
   }
 }

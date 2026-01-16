@@ -1,23 +1,17 @@
 package com.example.ejer3;
 
-import com.example.utils.Input;
-
 public class CuentaCorriente {
-  public String iban;
+
+  private String iban;
   private double saldo;
   private double porcentajeComision;
-  private int contadorIngresos = 0;
+  private int contadorIngresos;
 
   public CuentaCorriente(String iban, double porcComision) {
-    this.saldo = 0;
     this.iban = iban;
     this.porcentajeComision = porcComision;
-  }
-
-  public CuentaCorriente crearCuenta() {
-    double comision = 0.03;
-    String iban = Input.ask("Numero de IBAN: ");
-    return new CuentaCorriente(iban, comision);
+    this.saldo = 0;
+    this.contadorIngresos = 0;
   }
 
   protected void ingresar(double importe) {
@@ -56,4 +50,7 @@ public class CuentaCorriente {
     return this.porcentajeComision;
   }
 
+  public String getIban() {
+    return iban;
+  }
 }
